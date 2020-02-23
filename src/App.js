@@ -1,4 +1,4 @@
-import React, { useReducer } from 'react';
+import React from 'react';
 
 // import Context from './components/Context';
 
@@ -12,7 +12,8 @@ import React, { useReducer } from 'react';
 // import ContextUseReducer from './components/ContextUseReducer';
 
 // import reducer, { INITIAL_STATE } from './components/Count/reducers';
-import UseCallback from './components/UseCallback';
+// import UseCallback from './components/UseCallback';
+import UseMemo from './components/UseMemo';
 
 export const UserContext = React.createContext();
 export const AgeContext = React.createContext();
@@ -49,7 +50,9 @@ function App() {
 
       <PostsUseReducer /> */}
 
-      <UseCallback />
+      {/* <UseCallback /> */}
+
+      <UseMemo />
     </div>
   );
 }
