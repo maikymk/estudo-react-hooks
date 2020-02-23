@@ -1,11 +1,13 @@
 import React from 'react'
 
-import DocumentTitle from './DocumentTitle'
+// import DocumentTitle from './DocumentTitle'
+import Count from './Count'
 
 function CustomHook() {
     return (
         <div>
-            <DocumentTitle />
+            {/* <DocumentTitle /> */}
+            <Count />
         </div>
     )
 }
