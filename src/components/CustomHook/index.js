@@ -1,13 +1,15 @@
 import React from 'react'
+import Form from './Form'
 
 // import DocumentTitle from './DocumentTitle'
-import Count from './Count'
+// import Count from './Count'
 
 function CustomHook() {
     return (
         <div>
             {/* <DocumentTitle /> */}
-            <Count />
+            {/* <Count /> */}
+            <Form />
         </div>
     )
 }
