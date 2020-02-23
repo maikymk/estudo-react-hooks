@@ -13,7 +13,8 @@ import React from 'react';
 
 // import reducer, { INITIAL_STATE } from './components/Count/reducers';
 // import UseCallback from './components/UseCallback';
-import UseMemo from './components/UseMemo';
+// import UseMemo from './components/UseMemo';
+import UseRef from './components/UseRef';
 
 export const UserContext = React.createContext();
 export const AgeContext = React.createContext();
@@ -52,7 +53,8 @@ function App() {
 
       {/* <UseCallback /> */}
 
-      <UseMemo />
+      {/* <UseMemo /> */}
+      <UseRef />
     </div>
   );
 }
